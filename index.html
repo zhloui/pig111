@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>2 Dice Pig</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/pig.js" defer></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <h2 id="status"></h2>
+        <section class="player1">
+            <button class="roll">Roll</button>
+            <button class="hold">Hold</button>
+            <p class="totalPoints"></p>
+        </section>
+
+        <section>
+            <div id="dice">
+                &#x2684;
+                &#x2685;
+            </div>
+            <p id="points"></p>
+        </section>
+
+        <section class="player2">
+            <p class="totalPoints"></p>
+            <button class="roll">Roll</button>
+            <button class="hold">Hold</button>
+        </section>
+    </div>
 </body>
 </html>
